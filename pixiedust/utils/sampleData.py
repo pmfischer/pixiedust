@@ -27,7 +27,7 @@ from collections import OrderedDict
 from IPython.display import display, HTML, Javascript
 import json
 import requests
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 import os
 try:
     from urllib.request import Request, urlopen, URLError, HTTPError
